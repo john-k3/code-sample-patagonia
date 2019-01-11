@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CONTENTS
+
+1.FONTS
+2.SITE STYLES
+3.MAIN NAV
+4.
+5.
+
+*/
+
+/* FONTS */
+
+
+
+/* SITE STYLES */
+
+body{ font-family:museo-sans, sans-serif; font-style:normal; font-weight:900; background:url(../images/background.jpg); background-size:100%; z-index:-2; padding:0px;}
+
+p { color:#1D1D1D; font-family:museo, serif; font-style:normal; font-weight:500;}
+
+h1 { color:#1D1D1D; font-family:museo, serif; font-style:normal; font-weight:900; font-size:50px; text-align:center;}
+h2 { color:#1D1D1D; font-family:museo, serif; font-style:normal; font-weight:900; font-size:25px; text-align:center;}
+h3 { float:right; text-align:center; display:block; font-size:36px; z-index:2; padding:25px 0px;}
+
+/* MAIN NAV */
+
+#header{ width:100%; min-width:1200px; height:116px; color:#F3F3F3; padding:10px 60px 10px 10px; display:block; background:#FFFFFF; border-bottom:3px solid #7B838C;}
+
+#logo{ width:300px; height:auto; float:left;}
+#logo img{ width:250px; height:auto;}
+
+#nav{ float:right; text-align:center; display:block; font-size:36px;}
+
+#nav a, #nav a:visited, #nav a:active, #nav a:link{ color:#1D1D1D; text-decoration:none;}
+
+#nav a:hover{ /*background:#7B838C; color:#000000;*/}
+
+#nav li{ padding:20px;}
+
+#nav li ul{ text-align:center;}
+
+#menu li{ display:inline;}
+#menu li a{ padding:20px;}
+#menu li a:hover{ color:#7B838C;}
+
+.drop{ position:relative; display:inline-block; font-size:36px; text-align:center; float:right;}
+
+.drop_content{ display:none; position:absolute; background-color:#7B838C; min-width:1200px; padding:12px 16px; z-index:1;}
+
+.drop:hover .drop_content{ display:block;}
+
+
+/* FOOTER */
+
+#footer{ width:100%; min-width:1200px; height:auto; color:#F3F3F3; padding:10px; border-top:3px solid #7B838C;}
+
+#foot_nav{ float:left; text-align:center; display:block; font-size:14px; margin:30px 0px;}
+
+#foot_nav a, #foot_nav a:visited, #foot_nav a:active, #foot_nav a:link{ color:#1D1D1D; text-decoration:none;}
+
+#foot_nav a:hover{ /*background:#7B838C; color:#FFFFFF;*/}
+
+#foot-nav ul{ z-index:1;}
+
+#foot_nav li{ padding:5px;}
+
+#foot_nav li ul{ text-align:center;}
+
+#foot_menu li{ display:inline;}
+#foot_menu li a{ padding:10px;}
+#foot_menu li a:hover{ color:#7B838C;}
+
+/* SOCIAL */
+
+#social{ float:right; text-align:center; display:block; font-size:36px; width:350px; overflow:auto;}
+#social img{ width:37px; height:auto;}
+
+#social a, #social a:visited, #social a:active, #social a:link{ color:#1D1D1D; text-decoration:none;}
+
+#social a:hover{ opacity:0.5;}
+
+#social ul{ z-index:-1; /*position:absolute;*/ right:0px; overflow:hidden;}
+
+#social li{ padding:5px;}
+
+#social li ul{ text-align:center;}
+
+#icons li{ display:inline;}
+#icons li a{ padding:5px;}
+
+
+/* WRAPPER */
+
+#wrapper{ /*margin:auto;*/ width:100%; max-width:1000px; min-width:1000px; height:100%; text-align:center; margin:0 auto; position:relative; /*overflow:hidden;*/}
+
+.row{ width:100%; float:left; background:#FFFFFF;}
+.row_nb{ width:100%; float:left;}
+.row_lb{ width:100%; float:left; background:#FFFFFF; border-bottom:3px solid #7B838C;}
+
+#climb{ padding:0px 60px 0px 0px; height:171px;}
+#climb a, #climb a:visited, #climb a:active, #climb a:link{ color:#1D1D1D; text-decoration:none;}
+#climb a:hover{ color:#8C8C8C;}
+#climb img{ z-index:-1; position:absolute; left:0px; overflow:hidden;}
+#climb h3{ z-index:1;}
+
+#ski{ padding:0px 60px 0px 0px; height:171px;}
+#ski a, #ski a:visited, #ski a:active, #ski a:link{ color:#1D1D1D; text-decoration:none;}
+#ski a:hover{ color:#8C8C8C;}
+#ski img{ z-index:-1; position:absolute; left:0px; overflow:hidden;}
+#ski h3{ z-index:1;}
+
+#surf{ padding:0px 60px 0px 0px; height:171px;}
+#surf a, #surf a:visited, #surf a:active, #surf a:link{ color:#1D1D1D; text-decoration:none;}
+#surf a:hover{ color:#8C8C8C;}
+#surf img{ z-index:-1; position:absolute; left:0px; overflow:hidden;}
+#surf h3{ z-index:1;}
+
+#fish{ padding:0px 60px 0px 0px; height:171px;}
+#fish a, #fish a:visited, #fish a:active, #fish a:link{ color:#1D1D1D; text-decoration:none;}
+#fish a:hover{ color:#8C8C8C;}
+#fish img{ z-index:-1; position:absolute; left:0px; overflow:hidden;}
+#fish h3{ z-index:1;}
+
+#run{ padding:0px 60px 0px 0px; height:171px;}
+#run a, #run a:visited, #run a:active, #run a:link{ color:#1D1D1D; text-decoration:none;}
+#run a:hover{ color:#8C8C8C;}
+#run img{ z-index:-1; position:absolute; left:0px; overflow:hidden;}
+#run h3{ z-index:1;}
+
+#life{ padding:0px 60px 0px 0px; height:171px;}
+#life a, #life a:visited, #life a:active, #life a:link{ color:#1D1D1D; text-decoration:none;}
+#life a:hover{ color:#8C8C8C;}
+#life img{ z-index:-1; position:absolute; left:0px; overflow:hidden;}
+#life h3{ z-index:1;}
